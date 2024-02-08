@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tadwin</title>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'signup' %}">Sign Up</a>
+        <a href="{% url 'login' %}">Login</a>
+    </nav>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
